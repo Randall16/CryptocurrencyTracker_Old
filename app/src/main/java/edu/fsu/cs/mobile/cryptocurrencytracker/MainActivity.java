@@ -1,5 +1,12 @@
 package edu.fsu.cs.mobile.cryptocurrencytracker;
 
+/*
+*  This Main Activity is the only activity for the entire app. It holds an array of cryptocurrency
+*  objects that are initialized as the user selects them through the spinner on the action bar.
+*  storing them in the array helps reduce the amount of calls on the Alpha Vantage API.
+*/
+
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
