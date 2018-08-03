@@ -1,0 +1,7 @@
+I highly recommend running this on an emulator using API 23. When I was running it on API 27 to do the screen recording I was getting
+force closes that I would never get when running on API 23.
+
+Another note, upon opening the app I recommend you don't immediately select a new cryptocurrecny object or spam the refresh button. When 
+the app starts up it makes two calls to the Alpha Vantage API and when you follow that up by selecting a different cryptocurrency it has to
+make another two calls to the API. I have tried my best to implement a sleep thread inbetween these calls to avoid overcalling the API but
+due to Alpha Vantage's lack of a specific time window its all guess work on how long to run the sleep method. 
