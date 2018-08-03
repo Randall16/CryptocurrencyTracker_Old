@@ -1,5 +1,5 @@
-I highly recommend running this on an emulator using API 23. When I was running it on API 27 to do the screen recording I was getting
-force closes that I would never get when running on API 23.
+I highly recommend running this on an emulator using API 22. When I was running it on API 27 to do the screen recording I was getting
+force closes that I would never get when running on API 22.
 
 Another note, upon opening the app I recommend you don't immediately select a new cryptocurrecny object or spam the refresh button. When 
 the app starts up it makes two calls to the Alpha Vantage API and when you follow that up by selecting a different cryptocurrency it has to
