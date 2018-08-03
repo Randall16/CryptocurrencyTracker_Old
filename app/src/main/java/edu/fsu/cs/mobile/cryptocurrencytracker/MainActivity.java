@@ -167,7 +167,8 @@ public class MainActivity extends AppCompatActivity {
 
             if(!intent.getBooleanExtra("isValid", false)) {
                 cryptoArray[cryptoSelectionSpinner.getSelectedItemPosition()] = null;
-                Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Error API has been overcalled please wait" +
+                               " and try again", Toast.LENGTH_LONG).show();
 
                 invalidateAllFragments();
 
@@ -186,7 +187,8 @@ public class MainActivity extends AppCompatActivity {
 
             if(!intent.getBooleanExtra("isValid", false)) {
                 cryptoArray[cryptoSelectionSpinner.getSelectedItemPosition()] = null;
-                Toast.makeText(getApplicationContext(), "Error", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Error API has been overcalled please wait" +
+                               " and try again", Toast.LENGTH_LONG).show();
 
                 invalidateAllFragments();
             }
