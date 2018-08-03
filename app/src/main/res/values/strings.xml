@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cryptocurrency Tracker</string>
+
+    <string-array name="cryptocurrenciesArray">
+        <item name="Bitcoin">Bitcoin (BTC)</item>
+        <item name="Ethereum">Ethereum (ETH)</item>
+        <item name="Litecoin">Litecoin (LTC)</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Bitcoin_Description">Bitcoin is a decentralized digital currency created by an
+        unknown person or group of people under the name Satoshi Nakamoto and released as
+        open-source software in 2009. It does not rely on a central server to process transactions
+        or store funds. There will only ever be 21 million Bitcoin (BTC) to ever be created.</string>
+
+
+</resources>
