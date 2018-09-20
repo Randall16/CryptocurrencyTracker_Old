@@ -1,10 +1,1 @@
-I highly recommend running this on an emulator using API 22. When I was running it on API 27 to do the screen recording I was getting
-force closes that I would never get when running on API 22.
-
-Another note, upon opening the app I recommend you don't immediately select a new cryptocurrecny object or spam the refresh button. When 
-the app starts up it makes two calls to the Alpha Vantage API and when you follow that up by selecting a different cryptocurrency it has to
-make another two calls to the API. I have tried my best to implement a sleep thread inbetween these calls to avoid overcalling the API but
-due to Alpha Vantage's lack of a specific time window its all guess work on how long to run the sleep method. 
-
-As a final note when setting your domestic currency know that changing it restarts the activity and that any previous fetches will be 
-wiped. Restarting the activity is a must becasuse those previous fetches returned the info in old domestic currency.
+This is an old version of the project please go to https://github.com/Randall16/CryptocurrencyTracker for the most current version.
